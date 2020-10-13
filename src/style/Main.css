@@ -1,0 +1,84 @@
+/* HomePage */
+h1 {
+    font-size: 27px;
+}
+.intro {
+    padding: 5px 0 20px 0;
+}
+h2 {
+    font-size: 22px;
+    text-decoration: underline;
+}
+h3 {
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: #151E3D;
+}
+article p {
+    padding-bottom: 25px;
+}
+/* Trails */
+.trails {
+    list-style-type: none;
+    margin: 10px 10px;
+    
+}
+.trails li{
+    padding: 7px 0;
+}
+.trails li a {
+    color: black;
+    
+}
+.trails li a:hover {
+    color: white;
+}
+
+/* Equipment */
+p {
+    margin-top: 5px;
+    padding-bottom: 15px;
+}
+h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.equipment {
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.equipment li {
+    margin: 5px 0;
+}
+/* Contact */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+input,button,textarea {
+    margin-bottom: 7px;
+}
+input,textarea {
+    font-size: 16px;
+}
+form button {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    flex-basis: 30px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border:2px solid #151E3D;
+    border-radius: 5px;
+    color: #151E3D;
+    margin-top: 7px;
+    padding: 5px 0;
+}
+form button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #151E3D;
+}
