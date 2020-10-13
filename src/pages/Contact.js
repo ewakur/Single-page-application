@@ -44,7 +44,7 @@ class Contact extends React.Component {
                 <label>Tytuł</label>
                 <input name="title" type="text" value={title} onChange={this.handleChange}/>
                 <label>Wiadomość</label>
-                <textarea name="text" cols="40" rows="10" value={text} onChange={this.handleChange}></textarea>
+                <textarea name="text" rows="10" value={text} onChange={this.handleChange}></textarea>
                 <button>Wyślij</button>
             </form>
             <Prompt
