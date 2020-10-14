@@ -8,7 +8,7 @@ import Footer from './Footer';
 
 function App() {
   return (
-    <Router>
+    <Router basename={proces.env.PUBLIC_URL}>
       <header>
         <Header/>
       </header>
