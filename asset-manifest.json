@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Single-page-application/static/css/main.bcdd0fa8.chunk.css",
+    "main.js": "/Single-page-application/static/js/main.d07a1d81.chunk.js",
+    "main.js.map": "/Single-page-application/static/js/main.d07a1d81.chunk.js.map",
+    "runtime-main.js": "/Single-page-application/static/js/runtime-main.46798980.js",
+    "runtime-main.js.map": "/Single-page-application/static/js/runtime-main.46798980.js.map",
+    "static/js/2.a18e560e.chunk.js": "/Single-page-application/static/js/2.a18e560e.chunk.js",
+    "static/js/2.a18e560e.chunk.js.map": "/Single-page-application/static/js/2.a18e560e.chunk.js.map",
+    "index.html": "/Single-page-application/index.html",
+    "precache-manifest.32246cda329de3167eec994ebb5580e5.js": "/Single-page-application/precache-manifest.32246cda329de3167eec994ebb5580e5.js",
+    "service-worker.js": "/Single-page-application/service-worker.js",
+    "static/css/main.bcdd0fa8.chunk.css.map": "/Single-page-application/static/css/main.bcdd0fa8.chunk.css.map",
+    "static/js/2.a18e560e.chunk.js.LICENSE.txt": "/Single-page-application/static/js/2.a18e560e.chunk.js.LICENSE.txt",
+    "static/media/panorama-5stawow.JPG": "/Single-page-application/static/media/panorama-5stawow.3732bb28.JPG",
+    "static/media/panorama.JPG": "/Single-page-application/static/media/panorama.4f14b7d0.JPG",
+    "static/media/piecstawow.jpg": "/Single-page-application/static/media/piecstawow.9d07720d.jpg",
+    "static/media/wejscie5stawow.jpg": "/Single-page-application/static/media/wejscie5stawow.357b39d4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46798980.js",
+    "static/js/2.a18e560e.chunk.js",
+    "static/css/main.bcdd0fa8.chunk.css",
+    "static/js/main.d07a1d81.chunk.js"
+  ]
+}
