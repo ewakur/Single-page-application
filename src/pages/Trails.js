@@ -1,14 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import Trail from '../components/Trail';
 const Trials = ({match}) => {
 
-    
+    const history = useHistory();
+
+    const handleOnClick = () => history.goBack(); 
+
     return ( 
         
         <>
         <Trail id={match.params.id}/>
-        <Link to="/trails">Powrót do listy szlaków</Link>
+        <button className="btn-trail" onClick={handleOnClick}>Powrót do listy szlaków</button>
         </>
      );
 }

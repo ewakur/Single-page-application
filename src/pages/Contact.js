@@ -1,27 +1,31 @@
-import React from 'react'
+import React, {useState} from 'react';
 import {Prompt} from 'react-router-dom';
 
-class Contact extends React.Component {
+const Contact = () => {
 
-    state = {
+    const [state, setState] = useState({
         firstName: "",
         title: "",
         email: "",
-        text: "",
-        isEmpty: false
-    }
-    handleChange = e => {
-        this.setState({
+        text: ""
+    });
+    const [isEmpty,setIsEmpty] = useState(false);
+
+    
+    const handleChange = e => {
+        setState({
+            ...state,
             [e.target.name]: e.target.value,
-            isEmpty: true
         })
+        setIsEmpty(true);
     }
-    handleSubmit = e => {
+    const handleSubmit = e => {
         e.preventDefault();
-        const {firstName, title, email, text} = this.state;
+        const {firstName, title, email, text} = state;
         if(firstName && title && email && text){
             alert("Wiadomość została poprawnie wysłana")
-            this.setState({
+            setState({
+                ...state,
                 firstName: "",
                 title: "",
                 email: "",
@@ -32,19 +36,20 @@ class Contact extends React.Component {
             alert("Uzupełnij wszystkie pola")
         }
     }
-    render(){
-        const {firstName, title, email, text, isEmpty} = this.state;
+
+        const {firstName, title, email, text} = state;
+
         return (  
             <>
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={handleSubmit}>
                 <label>Imię</label>
-                <input name="firstName" type="text" value={firstName} onChange={this.handleChange}/>
+                <input name="firstName" type="text" value={firstName} onChange={handleChange}/>
                 <label>Email</label>
-                <input name="email" type="email" value={email} onChange={this.handleChange}/>
+                <input name="email" type="email" value={email} onChange={handleChange}/>
                 <label>Tytuł</label>
-                <input name="title" type="text" value={title} onChange={this.handleChange}/>
+                <input name="title" type="text" value={title} onChange={handleChange}/>
                 <label>Wiadomość</label>
-                <textarea name="text" rows="10" value={text} onChange={this.handleChange}></textarea>
+                <textarea name="text" rows="10" value={text} onChange={handleChange}></textarea>
                 <button>Wyślij</button>
             </form>
             <Prompt
@@ -53,7 +58,7 @@ class Contact extends React.Component {
             />
             </>
         );
-    }
+
 }
  
 export default Contact;

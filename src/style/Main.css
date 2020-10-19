@@ -34,6 +34,21 @@ article p {
     color: white;
 }
 
+.btn-trail {
+    font-size: 13px;
+    letter-spacing: 1px;
+    border:2px solid #151E3D;
+    border-radius: 5px;
+    color: #151E3D;
+    margin-top: 7px;
+    padding: 5px 10px;
+}
+.btn-trail:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #151E3D;
+}
+
 /* Equipment */
 p {
     margin-top: 5px;
