@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Single-page-application/static/css/main.bcdd0fa8.chunk.css",
-    "main.js": "/Single-page-application/static/js/main.1c38c24d.chunk.js",
-    "main.js.map": "/Single-page-application/static/js/main.1c38c24d.chunk.js.map",
+    "main.css": "/Single-page-application/static/css/main.853ded32.chunk.css",
+    "main.js": "/Single-page-application/static/js/main.b3c06ee7.chunk.js",
+    "main.js.map": "/Single-page-application/static/js/main.b3c06ee7.chunk.js.map",
     "runtime-main.js": "/Single-page-application/static/js/runtime-main.46798980.js",
     "runtime-main.js.map": "/Single-page-application/static/js/runtime-main.46798980.js.map",
-    "static/js/2.a18e560e.chunk.js": "/Single-page-application/static/js/2.a18e560e.chunk.js",
-    "static/js/2.a18e560e.chunk.js.map": "/Single-page-application/static/js/2.a18e560e.chunk.js.map",
+    "static/js/2.f77fd386.chunk.js": "/Single-page-application/static/js/2.f77fd386.chunk.js",
+    "static/js/2.f77fd386.chunk.js.map": "/Single-page-application/static/js/2.f77fd386.chunk.js.map",
     "index.html": "/Single-page-application/index.html",
-    "precache-manifest.025ec4d6c69b8c1a87e31eb31149f312.js": "/Single-page-application/precache-manifest.025ec4d6c69b8c1a87e31eb31149f312.js",
+    "precache-manifest.af02937ce3c7b559ea40454be2adfbde.js": "/Single-page-application/precache-manifest.af02937ce3c7b559ea40454be2adfbde.js",
     "service-worker.js": "/Single-page-application/service-worker.js",
-    "static/css/main.bcdd0fa8.chunk.css.map": "/Single-page-application/static/css/main.bcdd0fa8.chunk.css.map",
-    "static/js/2.a18e560e.chunk.js.LICENSE.txt": "/Single-page-application/static/js/2.a18e560e.chunk.js.LICENSE.txt",
+    "static/css/main.853ded32.chunk.css.map": "/Single-page-application/static/css/main.853ded32.chunk.css.map",
+    "static/js/2.f77fd386.chunk.js.LICENSE.txt": "/Single-page-application/static/js/2.f77fd386.chunk.js.LICENSE.txt",
     "static/media/panorama-5stawow.JPG": "/Single-page-application/static/media/panorama-5stawow.3732bb28.JPG",
     "static/media/panorama.JPG": "/Single-page-application/static/media/panorama.4f14b7d0.JPG",
     "static/media/piecstawow.jpg": "/Single-page-application/static/media/piecstawow.9d07720d.jpg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.46798980.js",
-    "static/js/2.a18e560e.chunk.js",
-    "static/css/main.bcdd0fa8.chunk.css",
-    "static/js/main.1c38c24d.chunk.js"
+    "static/js/2.f77fd386.chunk.js",
+    "static/css/main.853ded32.chunk.css",
+    "static/js/main.b3c06ee7.chunk.js"
   ]
 }
