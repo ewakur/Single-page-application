@@ -25,7 +25,6 @@ const Contact = () => {
         if(firstName && title && email && text){
             alert("Wiadomość została poprawnie wysłana")
             setState({
-                ...state,
                 firstName: "",
                 title: "",
                 email: "",
